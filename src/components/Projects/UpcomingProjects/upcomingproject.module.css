@@ -1,0 +1,126 @@
+.upcoming{
+    margin-top: 8%;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0% 2%;
+}
+
+.headertext{
+font-size: 84px;
+color: #ff1100;
+text-align: center;
+}
+
+
+
+.maincontainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-direction: row;
+    margin-top: 4%;
+}
+
+.maincontainer2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-direction: row;
+    margin-top: 4%;
+}
+
+
+.container1{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.container2{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    align-self: center;
+}
+
+
+.images{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.photo{
+    width: 90%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.label{
+    width: 90%;
+    height: fit-content;
+    padding: 10px 0px 0px 10px;
+    align-items: flex-start;
+    align-content: center;
+    background-image: linear-gradient(to right, #D12A1E,#ff1100,#B7251B);
+}
+
+
+.label h1{
+    font-size: 38px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.label span{
+    font-weight: 800;
+}
+
+
+.text{
+    width: 90%;
+    align-items: flex-start;
+    align-content: center;
+}
+
+
+.text h2{
+    margin-top: 2%;
+    font-size: 30px;
+}
+
+
+
+.text p{
+    
+    font-size: 23px;
+}
+
+.text h3{
+    margin-top:1%;
+    font-size: 25px;
+}

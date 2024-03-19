@@ -1,0 +1,22 @@
+/* .landingpage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    transition: 0.5s;
+    font-family: 'NunitoSans';
+} */
+
+
+section{
+    display: flex;
+    justify-content: center;
+    margin: 10% 0%;
+    padding: 0% 2%;
+    flex-direction: column;
+    align-items: center;
+}
+

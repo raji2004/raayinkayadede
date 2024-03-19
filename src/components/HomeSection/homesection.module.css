@@ -1,0 +1,65 @@
+section {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+
+
+.card1 {
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.square {
+    height: 700px;
+    width: 100%;
+    background-color: #D12A1E;
+    position: relative;
+}
+
+.cardimg {
+    height: 700px;
+    width: 40%;
+    object-fit: cover;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 50px 0px 0px 50px;
+}
+
+.card2 {
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.card2 h1 {
+    font-size: 4rem;
+    color: #ff1100;
+    text-align: center;
+}
+
+.card2 p {
+    font-size: 1.5rem;
+    color: #000;
+    text-align: center;
+}
