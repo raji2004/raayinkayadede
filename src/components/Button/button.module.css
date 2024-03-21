@@ -7,7 +7,9 @@
     height: 40px;
     font-size: 25px;
 } */
-
+.a{
+  align-self: center;
+}
 .button {
     background-color: #fff;
     border-radius: 10px;

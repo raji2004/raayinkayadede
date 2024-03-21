@@ -1,10 +1,10 @@
 import React from "react";
 import Style from "./contacthero.module.css";
-import {TextField, Button} from "@mui/material";
-
+import { TextField, } from "@mui/material";
+import { Button } from "../../components";
 export const ContactHero = () => {
   return (
-    <>
+    <div style={{ height: '160vh' }}>
       <div className={Style.container}>
         <div className={Style.contacthero}>
           <div className={Style.designtext}>
@@ -27,7 +27,7 @@ export const ContactHero = () => {
             </h3>
           </div>
           <div className={Style.inputs}>
-            
+
             <TextField
               fullWidth
               required
@@ -56,21 +56,23 @@ export const ContactHero = () => {
             />
 
             <TextField
-            multiline={true}
-            rows={4}
+              multiline={true}
+              rows={4}
               fullWidth
               required
               id="outline-required"
               label="Message"
               placeholder="How can we help?"
               size="Normal"
-              style={{ marginBottom: 45}}
+              style={{ marginBottom: 45 }}
               color="primary"
             />
+
+            <Button text={"Submit"} style={{ backgroundColor: 'red', alignSelf: 'center' }} />
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
@@ -141,6 +143,7 @@ export const ContactHeroMobile = () => {
               variant="outlined"
               color="primary"
             />
+            <Button text={"Submit"} style={{marginTop:50, backgroundColor: 'red', alignSelf: 'center' }} />
           </div>
         </div>
       </div>

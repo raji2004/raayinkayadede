@@ -49,7 +49,7 @@ export const Advert = () => {
                 We believe that business can be a powerful force for{" "}
                 <span>good</span>.
               </h1>
-              <Button text={"Contact Us"} style={{ marginTop: 50 }} />
+              <Button text={"Contact Us"} style={{ marginTop: 50 }} href={'/Contact'} />
             </div>
           </div>
         </div>

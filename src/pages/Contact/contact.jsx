@@ -1,6 +1,6 @@
 import React from "react";
 import Style from "./contact.module.css";
-import { Navigation, ContactHero,Footer, NavMobile, ContactHeroMobile } from "../../components";
+import { Navigation, ContactHero,Footer, NavMobile, ContactHeroMobile, FooterMobile } from "../../components";
 import { useMediaQuery } from '@mui/system';
 
 export const Contact = () => {
@@ -27,7 +27,7 @@ const ContactMobile = () => {
     <div>
       <NavMobile />
       <ContactHeroMobile />
-      <Footer />
+      <FooterMobile />
     </div>
   );
 }
