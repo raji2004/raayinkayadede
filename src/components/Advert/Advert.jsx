@@ -2,9 +2,13 @@ import React from "react";
 import Style from "./advert.module.css";
 import Bgimage from "../../assets/images/IMG-20230923-WA0024.jpg";
 import { Button } from "../../components";
-import { Link } from "react-router-dom";
+import { Link,useNavigate } from "react-router-dom";
 
 export const Advert = () => {
+  const navigator = useNavigate();
+  const handleClick = () => {
+    navigator.push("/contact");
+  }
   return (
     <>
       <div className={Style.section}>
@@ -49,9 +53,9 @@ export const Advert = () => {
                 We believe that business can be a powerful force for{" "}
                 <span>good</span>.
               </h1>
-              <Button text={"Contact Us"} style={{ marginTop: 50 }} href={'/contact'} />
+              <Button text={"Contact Us"} style={{ marginTop: 50 }} onClick={handleClick}  />
             </div>
-            
+
           </div>
         </div>
       </div>
@@ -60,6 +64,10 @@ export const Advert = () => {
 };
 
 export const AdvertMobile = () => {
+  const navigator = useNavigate();
+  const handleClick = () => {
+    navigator.push("/contact");
+  }
   return (
     <>
       <div className="w-full mt-10">
@@ -120,7 +128,7 @@ export const AdvertMobile = () => {
                   We believe that business can be a powerful force for{" "}
                   <span className="text-red-500">good</span>.
                 </h1>
-                <Button text={"Contact Us"} style={{ marginTop: 50 }}  href={'/contact'} />
+                <Button text={"Contact Us"} style={{ marginTop: 50 }}  onClick={handleClick} />
               </div>
             </div>
           </div>
