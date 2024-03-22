@@ -81,11 +81,11 @@ export const ServicesMobile = () => {
   return (
     <section id="services">
       <section className="mt-10">
-        <h1 className="text-5xl text-left text-red-500 mb-2">Our Services</h1>
+        <h1 className="text-5xl text-left text-red-500 mb-12">Our Services</h1>
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/2 mb-10 md:mb-0">
             <div className="flex flex-col">
-              <div className="flex items-center mb-6">
+              <div className="flex flex-col items-center mb-6">
                 <img src={Icon1} alt="" className="h-20 w-20" />
                 <div className="ml-4">
                   <h3 className="text-xl font-bold">Build and Design</h3>
@@ -98,7 +98,7 @@ export const ServicesMobile = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex items-center">
+              <div className="flex flex-col items-center">
                 <img src={Icon2} alt="" className="h-20 w-20" />
                 <div className="ml-4">
                   <h3 className="text-xl font-bold">Project Management</h3>
@@ -114,9 +114,9 @@ export const ServicesMobile = () => {
           </div>
           <div className="w-full md:w-1/2">
             <div className="flex flex-col items-center">
-              <img src={Illustration} alt="no photo" className="w-full md:w-2/3 mb-6" />
+              <img src={Illustration} alt="no photo" className="w-full md:w-2/3 mb-6 hidden" />
               <div className="flex flex-col items-center">
-                <div className="flex items-center mb-6">
+                <div className="flex flex-col items-center mb-6">
                   <img src={Icon3} alt="" className="h-20 w-20" />
                   <div className="ml-4">
                     <h3 className="text-xl font-bold">Construction Management</h3>
@@ -127,7 +127,7 @@ export const ServicesMobile = () => {
                     </p>
                   </div>
                 </div>
-                <div className="flex items-center">
+                <div className="flex flex-col items-center">
                   <img src={Icon4} alt="" className="h-20 w-20" />
                   <div className="ml-4">
                     <h3 className="text-xl font-bold">Supply of Building Materials</h3>

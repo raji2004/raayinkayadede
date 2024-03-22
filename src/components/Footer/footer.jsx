@@ -74,54 +74,60 @@ export const Footer = () => {
 
 export const FooterMobile = () => {
   return (
-      <>
-          <footer className="bg-black text-white py-8 px-6">
-              <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
-                  <div className="w-full md:w-1/3 flex flex-col items-center">
-                      <div className="logo">
-                          <h1 className="text-red-500 text-2xl font-bold">RAAYIN'KAYADEDE</h1>
-                          <h1 className="text-white text-2xl font-bold">NIGERIAN LIMITED</h1>
-                          <h2 className="text-white">
-                              <span className="text-white">Rc:</span>1829733
-                          </h2>
-                      </div>
-                      <div className=" mt-6">
-                          <p>
-                              RAAYIN’KAYADEDE NIGERIA LIMITED is a construction company that is associated and involved in building construction.
-                          </p>
-                      </div>
-                  </div>
+    <>
+      <footer className="bg-black text-white py-8 px-6">
+        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
+          <div className="w-full md:w-1/3 flex flex-col items-center justify-center">
+            <div className="logo">
+              <h1 className="text-red-500 text-4xl font-bold">RAAYIN'KAYADEDE</h1>
+              <h1 className="text-white text-4xl font-bold">NIGERIAN LIMITED</h1>
+              <h2 className="text-white">
+                <span className="text-white">Rc:</span>1829733
+              </h2>
+            </div>
+            <div className=" mt-6 text-center ">
+              <p>
+                RAAYIN’KAYADEDE NIGERIA LIMITED is a construction company that is associated and involved in building construction.
+              </p>
+            </div>
+          </div>
 
-                  <div className="mt-8 md:mt-0 w-full md:w-1/3 flex flex-col items-center">
-                      <h1 className="text-2xl font-bold mb-4">Company</h1>
-                      <h2 className="text-lg mb-2 hover:text-red-600">Projects</h2>
-                      <h2 className="text-lg mb-2 hover:text-red-600">About us</h2>
-                      <h2 className="text-lg mb-2 hover:text-red-600">Services</h2>
-                  </div>
+          <div className="mt-8 md:mt-0 w-full md:w-1/3 flex flex-col items-center">
+            <h1 className="text-2xl font-bold mb-4">Company</h1>
+            <Link smooth to="#projects">
+              <h2 className="text-lg mb-2 hover:text-red-600">Projects</h2>
+            </Link>
+            <Link smooth to="/about">
+              <h2 className="text-lg mb-2 hover:text-red-600">About us</h2>
+            </Link>
+            <Link smooth to="#services">
+              <h2 className="text-lg mb-2 hover:text-red-600">Services</h2>
+            </Link>
+          </div>
 
-                  <div className="mt-8 md:mt-0 w-full md:w-1/3 flex flex-col items-center">
-                      <h1 className="text-2xl font-bold mb-4">Resources</h1>
-                      <h2 className="text-lg mb-2">
-                          Want to make an inquiry.. 
-                          Reach us on these platforms
-                      </h2>
-                      <div className="flex gap-4">
-                          <div>
-                              <img src={Icon1} alt="" />
-                          </div>
-                          <div>
-                              <img src={Icon2} alt="" />
-                          </div>
-                          <div>
-                              <img src={Icon3} alt="" />
-                          </div>
-                      </div>
-                  </div>
+          <div className="mt-8 md:mt-0 w-full md:w-1/3 flex flex-col items-center">
+            <h1 className="text-2xl font-bold mb-4">Contanct Us</h1>
+            <h2 className="text-lg mb-2 text-center">
+              Want to make an inquiry..
+              Reach us on these platforms
+            </h2>
+            <div className="flex gap-4">
+              <div>
+                <img src={Icon1} alt="" />
               </div>
-              <div className="mt-8 text-center">
-                  <p>Copyright &copy; 2023 Powered By ProtonTech Technologies</p>
+              <div>
+                <img src={Icon2} alt="" />
               </div>
-          </footer>
-      </>
+              <div>
+                <img src={Icon3} alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="mt-8 text-center">
+          <p>Copyright &copy; 2023 Powered By ProtonTech Technologies</p>
+        </div>
+      </footer>
+    </>
   );
 };

@@ -80,7 +80,7 @@ export const AdvertMobile = () => {
             </div>
             <div className="w-full md:w-3/4 flex flex-col justify-center items-center">
               <div className="flex flex-col items-center  mb-6 gap-5">
-                <div className="w-full flex flex-col gap-2">
+                <div className="w-full flex flex-col gap-2 items-center">
                   <h3 className="text-5xl font-bold text-red-500  self-center">
                     12+
                   </h3>
@@ -93,7 +93,7 @@ export const AdvertMobile = () => {
                     experience.
                   </p>
                 </div>
-                <div className="w-full flex flex-col gap-2">
+                <div className="w-full flex flex-col gap-2 items-center">
                   <h3 className="text-5xl font-bold text-red-500 self-center">
                     100%
                   </h3>
@@ -106,7 +106,7 @@ export const AdvertMobile = () => {
                     with our support and construction.
                   </p>
                 </div>
-                <div className="w-full flex flex-col gap-2">
+                <div className="w-full flex flex-col gap-2 items-center">
                   <h3 className="text-5xl font-bold text-red-500 self-center">
                     2648+
                   </h3>
@@ -121,7 +121,7 @@ export const AdvertMobile = () => {
                 </div>
               </div>
               <div className="flex flex-col items-center mt-6">
-                <h1 className="text-4xl md:text-6xl text-white text-center mb-4">
+                <h1 className="text-3xl md:text-6xl text-white text-center mb-4">
                   We believe that business can be a powerful force for{" "}
                   <span className="text-red-500">good</span>.
                 </h1>

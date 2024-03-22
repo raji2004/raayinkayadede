@@ -27,21 +27,15 @@ export const Navigation = () => {
             <div className={Style.links}>
               <li>
                 {/* <a href="/">Home</a> */}
-                <Link to={"/"}>
-                  <Button text={"Home"} />
-                </Link>
+                <Button text={"Home"} href={"/"} />
               </li>
               <li>
                 {/* <a href="./about">About</a> */}
-                <Link to={"/About"}>
-                  <Button text={"About"} />
-                </Link>
+                <Button text={"About"} href={"/about"} />
               </li>
               <li>
                 {/* <a href="./contact">Contact</a> */}
-                <Link to={"/Contact"}>
-                  <Button text={"Contact"} />
-                </Link>
+                <Button text={"Contact"} href={"/contact"}/>
               </li>
               {/* <label for="check" className="close-menu"><i class="fas fa-times" style={{color:"#000"}}></i></label> */}
             </div>
@@ -81,21 +75,21 @@ export const NavMobile = () => {
             <div className={''}>
               <li>
                 {/* <a href="/">Home</a> */}
-                <Link to={"/"}>
-                  <Button text={"Home"} />
-                </Link>
+                
+                  <Button text={"Home"} href={"/"} />
+              
               </li>
               <li>
                 {/* <a href="./about">About</a> */}
-                <Link to={"/About"}>
-                  <Button text={"About"} />
-                </Link>
+            
+                  <Button text={"About"} href={"/about"} />
+               
               </li>
               <li>
                 {/* <a href="./contact">Contact</a> */}
-                <Link to={"/Contact"}>
-                  <Button text={"Contact"} />
-                </Link>
+             
+                  <Button text={"Contact"} href={"/contact"}/>
+              
               </li>
               {/* <label for="check" className="close-menu"><i class="fas fa-times" style={{color:"#000"}}></i></label> */}
             </div>
