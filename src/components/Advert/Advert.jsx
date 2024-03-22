@@ -49,7 +49,7 @@ export const Advert = () => {
                 We believe that business can be a powerful force for{" "}
                 <span>good</span>.
               </h1>
-              <Button text={"Contact Us"} style={{ marginTop: 50 }} href={'/Contact'} />
+              <Button text={"Contact Us"} style={{ marginTop: 50 }} href={'/contact'} />
             </div>
           </div>
         </div>
@@ -119,7 +119,7 @@ export const AdvertMobile = () => {
                   We believe that business can be a powerful force for{" "}
                   <span className="text-red-500">good</span>.
                 </h1>
-                <Button text={"Contact Us"} style={{ marginTop: 50 }} />
+                <Button text={"Contact Us"} style={{ marginTop: 50 }}  href={'/contact'} />
               </div>
             </div>
           </div>
