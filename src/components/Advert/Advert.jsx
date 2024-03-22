@@ -5,10 +5,7 @@ import { Button } from "../../components";
 import { Link,useNavigate } from "react-router-dom";
 
 export const Advert = () => {
-  const navigator = useNavigate();
-  const handleClick = () => {
-    navigator.push("/contact");
-  }
+ 
   return (
     <>
       <div className={Style.section}>
@@ -53,7 +50,7 @@ export const Advert = () => {
                 We believe that business can be a powerful force for{" "}
                 <span>good</span>.
               </h1>
-              <Button text={"Contact Us"} style={{ marginTop: 50 }} onClick={handleClick}  />
+              <Button text={"Contact Us"} style={{ marginTop: 50 }}  href={'/contact'}  />
             </div>
 
           </div>
@@ -128,7 +125,7 @@ export const AdvertMobile = () => {
                   We believe that business can be a powerful force for{" "}
                   <span className="text-red-500">good</span>.
                 </h1>
-                <Button text={"Contact Us"} style={{ marginTop: 50 }}  onClick={handleClick} />
+                <Button text={"Contact Us"} style={{ marginTop: 50 }}  href={'/contact'} />
               </div>
             </div>
           </div>

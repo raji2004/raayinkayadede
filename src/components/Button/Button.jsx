@@ -1,8 +1,9 @@
 import React from "react";
 import Style from './button.module.css'
-export const Button = ({ text, onClick, style,  }) => {
+import { Link } from "react-router-dom";
+export const Button = ({ text, onClick, style, href }) => {
     return (
-     
+     <Link to={href} className={Style.a}>
             <button
                 className={Style.button}
                 onClick={onClick}
@@ -11,6 +12,7 @@ export const Button = ({ text, onClick, style,  }) => {
             >
                 {text}
             </button>
+        </Link>
    
 
     )
