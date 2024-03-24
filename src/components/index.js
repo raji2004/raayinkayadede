@@ -11,5 +11,5 @@ export * from "./AboutSection/AboutSection.jsx";
 export * from "./AboutTeam/AboutTeam.jsx";
 export * from "./AboutHero/AboutHero.jsx";
 export * from "./ContactHero/ContactHero.jsx";
-
+export * from './ConstructionService/ConstructionService.jsx'
 export * from "./Button/Button.jsx";

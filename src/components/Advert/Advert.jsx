@@ -2,10 +2,21 @@ import React from "react";
 import Style from "./advert.module.css";
 import Bgimage from "../../assets/images/IMG-20230923-WA0024.jpg";
 import { Button } from "../../components";
-import { Link,useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
+
+const WorkingHoursComponent = ({ number, description,title }) => {
+  return (
+    <div className={Style.content}>
+      <h3>{number}</h3>
+      <div className={Style.rule}></div>
+      <h4>{title}</h4>
+      <p>{description}</p>
+    </div>
+  );
+};
 export const Advert = () => {
- 
+
   return (
     <>
       <div className={Style.section}>
@@ -17,40 +28,28 @@ export const Advert = () => {
           </div>
           <div className={Style.advertcontainer}>
             <div className={Style.textcontainer}>
-              <div className={Style.content}>
-                <h3>12+</h3>
-                <div className={Style.rule}></div>
-                <h4>Completed Projects</h4>
-                <p>
-                  We have completed a lot of projects successfully with our
-                  experience.
-                </p>
-              </div>
-              <div className={Style.content}>
-                <h3>100%</h3>
-                <div className={Style.rule}></div>
-                <h4>Satisfied Customers</h4>
-                <p>
-                  Every family who live in our bulidings are 100% satisfied with
-                  our support and construction.
-                </p>
-              </div>
-              <div className={Style.content}>
-                <h3>2648+</h3>
-                <div className={Style.rule}></div>
-                <h4>Working Hours</h4>
-                <p>
-                  We have worked a lot in the past 19 years to provide best
-                  apartments to live.
-                </p>
-              </div>
+              <WorkingHoursComponent
+                number="12+"
+                title="Completed Projects"
+                description="We have completed a lot of projects successfully with our experience."
+              />
+              <WorkingHoursComponent
+                number="100%"
+                title="Satisfied Customers"
+                description="Every family who live in our buildings are 100% satisfied with our support and construction."
+              />
+              <WorkingHoursComponent
+                number="2648+"
+                title="Working Hours"
+                description="We have worked a lot in the past 19 years to provide the best apartments to live."
+              />
             </div>
             <div className={Style.advertwriteup}>
               <h1>
                 We believe that business can be a powerful force for{" "}
                 <span>good</span>.
               </h1>
-              <Button text={"Contact Us"} style={{ marginTop: 50 }}  href={'/contact'}  />
+
             </div>
 
           </div>
@@ -125,7 +124,7 @@ export const AdvertMobile = () => {
                   We believe that business can be a powerful force for{" "}
                   <span className="text-red-500">good</span>.
                 </h1>
-                <Button text={"Contact Us"} style={{ marginTop: 50 }}  href={'/contact'} />
+                <Button text={"Contact Us"} style={{ marginTop: 50 }} href={'/contact'} />
               </div>
             </div>
           </div>

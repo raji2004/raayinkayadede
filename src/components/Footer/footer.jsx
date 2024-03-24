@@ -36,7 +36,7 @@ export const Footer = () => {
             <Link smooth to="#projects">
               <h2 className={Style.links}>Projects</h2>
             </Link>
-            <Link smooth to="#about-us">
+            <Link smooth to="/about">
               <h2 className={Style.links}>About us</h2>
             </Link>
             <Link smooth to="#services">

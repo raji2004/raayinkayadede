@@ -1,10 +1,12 @@
 import React from "react";
 import Style from "./chooseus.module.css";
 import Worker from "../../assets/images/figmapic 1 1.png";
+import { Button } from "../Button/Button";
 export const ChooseUs = () => {
   return (
     <>
      <div className={Style.section}>
+     <Button text={"Contact Us"}   href={'/contact'}  />
      <div className={Style.container}>
         <div className={Style.content1}>
           <img src={Worker} alt="nophoto" className={Style.worker} />
