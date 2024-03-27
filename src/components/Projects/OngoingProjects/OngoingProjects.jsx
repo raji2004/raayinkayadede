@@ -56,19 +56,6 @@ export const OngoingProjects = () => {
               link="/seeMore"
             />
 
-            <Project
-              imageSrc={Image1}
-              propertyDetails="Plot 198 Cadastral Zone B07 Katampe District, Abuja"
-              sitePlan="A block of 4nos five bedrooms terrace apartment & 3nos two bedroom flats"
-              link="/seeMore"
-            />
-
-            <Project
-              imageSrc={Image3}
-              propertyDetails="The Marriot 1, Plot 198 Cadastral Zone B07 Katampe District, Abuja"
-              sitePlan="The building is designed for your luxury living which provides an exciting experiences and ambience for a befitting home for class and style"
-              link="/seeMore"
-            />
           </div>
           <div className={Style.maincontainer2}></div>
         </div>

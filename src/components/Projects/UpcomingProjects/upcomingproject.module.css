@@ -27,6 +27,7 @@ text-align: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
+    gap: 15px;
 }
 
 .maincontainer2{
