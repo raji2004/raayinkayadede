@@ -6,11 +6,12 @@ import Icon3 from "../../assets/icons/pngicons/layers_dark.png";
 import Icon4 from "../../assets/icons/pngicons/checklist_dark.png";
 import Illustration from "../../assets/illustrations/undraw_under_construction_-46-pa.svg";
 import { ConstructionService } from "../ConstructionService/ConstructionService";
+import { Header } from "../Header/header";
 export const Services = () => {
   return (
     <section id="services">
       <section className={Style.section}>
-        <h1 className={Style.headertext}>Our Services</h1>
+        <Header style={' text-7xl'}>Our Services</Header>
         <div className={Style.cardcontainer}>
 
           <ConstructionService

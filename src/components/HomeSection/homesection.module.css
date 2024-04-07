@@ -51,6 +51,7 @@ section {
     align-items: center;
     align-content: center;
     padding: 0rem 4rem;
+    gap: 30px;
 }
 
 .card2 h1 {

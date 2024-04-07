@@ -7,6 +7,7 @@ import Image4 from "../../../assets/images/IMG-20230822-WA0017.jpg";
 import { Link } from "react-router-dom";
 import { Button } from "../../Button/Button";
 import { Project } from "../../Project/Project";
+import { Header } from "../../Header/header";
 
 
 
@@ -14,7 +15,7 @@ export const UpcomingProjects = () => {
   return (
     <>
       <div className={Style.upcoming}>
-        <h1 className={Style.headertext}>Upcoming Projects</h1>
+        <Header style={" text-7xl mb-5"}>Upcoming Projects</Header>
         <div className={Style.container}>
           <div className={Style.maincontainer}>
             <Project
@@ -69,9 +70,9 @@ export const UpcomingProjectsMobile = () => {
   return (
     <>
       <section className="w-full flex flex-col items-center mt-16">
-        <h1 className="text-3xl text-red-500 mb-10 w-full">
+        <Header style="text-3xl mb-10 w-full">
           Upcoming Projects
-        </h1>
+        </Header>
 
         <div className="w-full flex flex-col md:flex-row mb-8 items-center gap-5">
         <Project

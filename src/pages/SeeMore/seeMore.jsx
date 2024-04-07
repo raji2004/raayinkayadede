@@ -1,2 +1,10 @@
 import React from "react";
-import Style from "./seeDetails.module.css";
+import Style from "./seeMore.module.css";
+
+export const SeeMore = () => {
+    return(
+        <div>
+            f
+        </div>
+    )
+}

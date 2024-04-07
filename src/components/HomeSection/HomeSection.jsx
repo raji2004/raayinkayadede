@@ -1,6 +1,7 @@
 import React from "react";
 import Style from "./homesection.module.css";
 import Image1 from "../../assets/images/IMG-20230915-WA0009.jpg";
+import { Header } from "../Header/header";
 
 export const HomeSection = () => {
   return (
@@ -12,7 +13,7 @@ export const HomeSection = () => {
             <img src={Image1} alt="photo" className={Style.cardimg} />
           </div>
           <div className={Style.card2}>
-            <h1 className={Style.headertext}>Who We Are</h1>
+            <Header>Who We Are</Header>
 
             <p className={Style.sectiontext}>
               RAAYIN'KAYADEDE is a real estate firm which venture in building &
@@ -48,7 +49,7 @@ export const HomeSectionMobile = () => {
             <img src={Image1} alt="photo" className={"cardimg h-[400px] md:h-[700px] w-full md:w-[50%] object-cover absolute shadow-lg mb-4 md:mb-0"} />
           </div>
           <div className={"card2 h-screen md:h-[80vh] w-full flex flex-col justify-center items-center content-center  pt-8 md:pt-0"}>
-            <h1 className={"text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-red-700 mb-2 md:mb-4 lg:mb-6 xl:mb-8"}>Who We Are</h1>
+            <Header style={"text-4xl md:text-5xl lg:text-6xl xl:text-7xlmb-2 md:mb-4 lg:mb-6 xl:mb-8"}>Who We Are</Header>
 
             <p className={"text-lg md:text-2xl text-justify text-gray-800"}>
               RAAYIN'KAYADEDE is a real estate firm which venture in building &

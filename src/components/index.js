@@ -6,6 +6,7 @@ export * from "./Advert/Advert.jsx";
 export * from "./ChooseUs/ChooseUs.jsx";
 export * from "./Projects/OngoingProjects/OngoingProjects.jsx";
 export * from "./Projects/UpcomingProjects/UpcomingProjects.jsx";
+export * from './Projects/Complete projects/CompletedProjects.jsx'
 export * from "./Footer/footer.jsx";
 export * from "./AboutSection/AboutSection.jsx";
 export * from "./AboutTeam/AboutTeam.jsx";

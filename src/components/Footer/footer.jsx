@@ -5,7 +5,6 @@ import { HashLink as Link } from "react-router-hash-link";
 import Icon1 from "../../assets/icons/pngicons/Group 3.png";
 import Icon2 from "../../assets/icons/pngicons/Group 4.png";
 import Icon3 from "../../assets/icons/pngicons/Group 5.png";
-
 export const Footer = () => {
   return (
     <>
@@ -52,15 +51,15 @@ export const Footer = () => {
             </h2>
 
             <div className={Style.icons}>
-              <div>
+              <a href="https://web.facebook.com/profile.php?id=61550932577465&paipv=0&eav=AfaVrkZ-3SbjIfmKuNfFTldR9Au1S7_I0jb0rJPFb58WdC1oOPv6acHdqUijA2Lc6dk">
                 <img src={Icon1} alt="" />
-              </div>
-              <div>
+              </a>
+              <a href="https://www.instagram.com/raayin_kayadede"> 
                 <img src={Icon2} alt="" />
-              </div>
-              <div>
+              </a>
+              <a href="mailto:raayinkayadede2022@gmail.com">
                 <img src={Icon3} alt="" />
-              </div>
+              </a>
             </div>
           </div>
         </div>
