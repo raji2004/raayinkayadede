@@ -14,4 +14,4 @@ export * from "./AboutHero/AboutHero.jsx";
 export * from "./ContactHero/ContactHero.jsx";
 export * from './ConstructionService/ConstructionService.jsx'
 export * from "./Button/Button.jsx";
-export * from './Project/Project.jsx'
+export * from './Project/ProjectCard.jsx'
