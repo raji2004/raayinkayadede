@@ -2,6 +2,7 @@ import React from "react";
 import Style from "./contacthero.module.css";
 import { TextField, } from "@mui/material";
 import { Button } from "../../components";
+import { color } from "framer-motion";
 export const ContactHero = () => {
   return (
     <div style={{ height: '160vh' }}>
@@ -12,8 +13,7 @@ export const ContactHero = () => {
               We'd love to hear <br /> from you{" "}
             </h4>
             <p className={Style.subtext}>
-              Contact us using the form below and we'll get back to you right
-              away
+           At Raayin Kayadede, we highly value customer feedback. Our goal is to provide a seamless communication experience, ensuring prompt and efficient responses to all customer inquiries. We are committed to maintaining high standards of customer service and satisfaction.
             </p>
           </div>
         </div>
@@ -68,7 +68,7 @@ export const ContactHero = () => {
               color="primary"
             />
 
-            <Button text={"Submit"} style={{ backgroundColor: 'red', alignSelf: 'center' }} />
+            <Button text={"Submit"} style={{ backgroundColor: 'red', alignSelf: 'center',color:'white' }} />
           </div>
         </div>
       </div>
@@ -80,24 +80,27 @@ export const ContactHero = () => {
 
 
 export const ContactHeroMobile = () => {
+  //rounded-bl-full rounded-tr-full
   return (
     <>
-      <div className="bg-gradient-to-r from-red-600 via-red-500 to-red-400 w-full h-4/5 md:h-82vh rounded-bl-full rounded-tr-full relative">
+      <div className="bg-gradient-to-r from-red-600 via-red-500 to-red-400 w-full md:w-screen h-80 md:h-3/5  relative">
         <div className="container mx-auto flex justify-center items-center flex-col h-full">
           <div className="text-white text-center">
             <h4 className="text-xl md:text-6xl leading-tight">
               We'd love to hear <br /> from you{" "}
             </h4>
-            <p className="mt-8 ml-10 text-sm text-center">
-              Contact us using the form below and we'll get back to you right
-              away
+            <p className="mt-8 ml-10 text-xs text-center">
+              At Raayin Kayadede, we highly value customer feedback. Our goal
+              is to provide a seamless communication experience, ensuring prompt
+              and efficient responses to all customer inquiries. We are committed
+              to maintaining high standards of customer service and satisfaction.
             </p>
           </div>
         </div>
       </div>
 
       <div className="container mx-auto flex justify-center items-center flex-col">
-        <div className="bg-white rounded-full w-full h-screen md:w-2/5 mt-10 p-8 shadow-md">
+        <div className="bg-white rounded-full w-full h-auto md:h-screen md:w-2/5 mt-10 p-8 shadow-md">
           <div className="text-center mb-8">
             <h3 className="text-2xl font-semibold">
               Fill out the form and we'll be in touch as soon as possible!

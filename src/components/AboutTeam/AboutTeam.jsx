@@ -10,7 +10,7 @@ export const AboutTeam = () => {
   return (
     <>
       <div className={`${Style.team}`}>
-        <header className={Style.header}>Meet Our Team Executives</header>
+        <header className={Style.header}>Meet The Ceo</header>
         <div className={Style.profile}>
           {/* <div className={Style.profilecontent}></div> */}
           <div className={Style.member}>

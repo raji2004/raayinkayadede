@@ -29,7 +29,10 @@ export const HomeSection = () => {
               architectural and engineering designs, interior design, facility
               management, procurement and project management services for
               residential, commercial and hospitality projects. <br />
-              At RAAYIN'KAYADEDE, we approach each project with a collaborative
+             
+            </p>
+            <p className={Style.sectiontext}>
+            At RAAYIN'KAYADEDE, we approach each project with a collaborative
               and honest sensibility as we believe in expressing our client's
               brand identity through design.
             </p>

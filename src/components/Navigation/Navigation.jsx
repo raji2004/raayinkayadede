@@ -27,7 +27,7 @@ export const Navigation = () => {
             <div className={Style.links}>
               <li>
                 {/* <a href="/">Home</a> */}
-                <Button text={"Home"} href={"/"} />
+                <Button text={"Home"} href={"/"}  />
               </li>
               <li>
                 {/* <a href="./about">About</a> */}
@@ -55,7 +55,7 @@ export const NavMobile = () => {
   useClickAway(ref, () => setOpen(false));
 
   return (
-    <div ref={ref} className="lg:hidden flex justify-between p-2 shadow-sm  bg-white">
+    <div ref={ref} className="lg:hidden flex justify-between p-2 shadow-sm w-full z-50  bg-white fixed">
       <div className={Style.logo}>
         <Link>
           <h1 style={{ color: "#ff1100" }}>RAAYIN'KAYADEDE</h1>

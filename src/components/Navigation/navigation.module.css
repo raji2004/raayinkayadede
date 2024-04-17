@@ -12,7 +12,9 @@ border: 0;
     width: 100%;
     padding: 1% 2%;
     padding: .8em 6em;
-    /* z-index: 1; */
+    position: fixed;
+    background-color: white;
+    z-index: 50;
     /* margin-bottom: 1.4em; */
 }
 
@@ -65,11 +67,12 @@ li a:visited{
 }
 
 .logo h1 {
-font-size: 24px;
-font-size: .6em;
+font-size: .8em;
+font-weight: bold;
 }
 .logo h2 {
-font-size: .6em;
+font-size: .8em;
+font-weight: bold;
 }
 
 

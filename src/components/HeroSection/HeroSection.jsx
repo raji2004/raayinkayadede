@@ -16,8 +16,8 @@ export const HeroSection = () => {
 export const HeroMobile = () => {
   return (
     <>
-      <div className={'lg:hidden herocontainer h-fit mb-4 md:mb-32'}>
-        <video src={Bgvideo} autoPlay muted loop className="object-cover w-full h-1/4  md:h-[110vh] "/>
+      <div className={'lg:hidden herocontainer h-50vh md:mb-32'}>
+        <video src={Bgvideo} autoPlay muted loop className="object-cover w-full h-full  md:h-[110vh] "/>
       </div>
     </>
   );

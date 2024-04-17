@@ -5,6 +5,8 @@ import { HashLink as Link } from "react-router-hash-link";
 import Icon1 from "../../assets/icons/pngicons/Group 3.png";
 import Icon2 from "../../assets/icons/pngicons/Group 4.png";
 import Icon3 from "../../assets/icons/pngicons/Group 5.png";
+import { Button } from "../Button/Button";
+import { textAlign } from "@mui/system";
 export const Footer = () => {
   return (
     <>
@@ -57,14 +59,15 @@ export const Footer = () => {
               <a href="https://www.instagram.com/raayin_kayadede"> 
                 <img src={Icon2} alt="" />
               </a>
-              <a href="mailto:raayinkayadede2022@gmail.com">
+              <a href="/contact">
                 <img src={Icon3} alt="" />
               </a>
             </div>
+            <Button text={"Contact Us"} href={'/contact'} ContainerStyle={{alignSelf:'start'}}  />
           </div>
         </div>
         <div className={Style.copyright}>
-          <p>Copyright &copy; 2023 Powered By ProtonTech Technologies</p>
+          <p>Copyright &copy; 2023 Powered By ProtonTech</p>
         </div>
       </footer>
     </>
@@ -121,10 +124,11 @@ export const FooterMobile = () => {
                 <img src={Icon3} alt="" />
               </div>
             </div>
+            <Button text={"Contact Us"} href={'/contact'} ContainerStyle={{marginBlock:20}}  />
           </div>
         </div>
         <div className="mt-8 text-center">
-          <p>Copyright &copy; 2023 Powered By ProtonTech Technologies</p>
+          <p>Copyright &copy; 2023 Powered By ProtonTech</p>
         </div>
       </footer>
     </>

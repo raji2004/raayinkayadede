@@ -18,7 +18,7 @@ import { Link } from "react-router-dom";
                 <p className="text-base mt-2">
                     {sitePlan}
                 </p>
-                <button className="seeDetails text-base font-bold bg-red-500 text-white h-10 w-36 rounded-md mt-10">
+                <button className="seeDetails text-base font-bold bg-red-500 text-white h-10 w-36 rounded-md mt-10 hover:bg-red-700">
                     See More
                 </button>
             </Link>

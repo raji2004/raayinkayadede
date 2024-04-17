@@ -52,6 +52,7 @@ export const Advert = () => {
 
             </div>
 
+            <Button text={"Contact Us"}   href={'/contact'}  style={{marginTop:-220}} />
           </div>
         </div>
       </div>

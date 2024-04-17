@@ -43,9 +43,9 @@ const HomeDesktop = () => {
       <Services />
       <Advert />
       <ChooseUs />
-      <OngoingProjects />
-      <UpcomingProjects />
       <CompletedProjects />
+      <UpcomingProjects />
+      <OngoingProjects />
       <Footer />
     </div>
   );
