@@ -68,7 +68,7 @@ export const ContactHero = () => {
               color="primary"
             />
 
-            <Button text={"Submit"} style={{ backgroundColor: 'red', alignSelf: 'center',color:'white' }} />
+            <Button text={"Submit"} style={{ backgroundColor: 'red', alignSelf: 'center',color:'white', }} />
           </div>
         </div>
       </div>
