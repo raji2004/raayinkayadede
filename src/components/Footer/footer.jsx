@@ -10,7 +10,9 @@ import { textAlign } from "@mui/system";
 export const Footer = () => {
   return (
     <>
-      <footer className={Style.footer}>
+      <footer className={Style.footer}
+      
+      >
         <div className={Style.main}>
           <div className={Style.container}>
             <div className={Style.logo}>
@@ -63,7 +65,7 @@ export const Footer = () => {
                 <img src={Icon3} alt="" />
               </a>
             </div>
-            <Button text={"Contact Us"} href={'/contact'} ContainerStyle={{alignSelf:'start'}}  />
+            {/* <Button text={"Contact Us"} href={'/contact'} ContainerStyle={{alignSelf:'start'}}  /> */}
           </div>
         </div>
         <div className={Style.copyright}>
@@ -114,17 +116,17 @@ export const FooterMobile = () => {
               Reach us on these platforms
             </h2>
             <div className="flex gap-4">
-              <div>
+            <a href="https://web.facebook.com/profile.php?id=61550932577465&paipv=0&eav=AfaVrkZ-3SbjIfmKuNfFTldR9Au1S7_I0jb0rJPFb58WdC1oOPv6acHdqUijA2Lc6dk">
                 <img src={Icon1} alt="" />
-              </div>
-              <div>
+              </a>
+              <a href="https://www.instagram.com/raayin_kayadede"> 
                 <img src={Icon2} alt="" />
-              </div>
-              <div>
+              </a>
+              <a href="/contact">
                 <img src={Icon3} alt="" />
-              </div>
+              </a>
             </div>
-            <Button text={"Contact Us"} href={'/contact'} ContainerStyle={{marginBlock:20}}  />
+            {/* <Button text={"Contact Us"} href={'/contact'} ContainerStyle={{marginBlock:20}}  /> */}
           </div>
         </div>
         <div className="mt-8 text-center">
