@@ -11,8 +11,10 @@ border: 0;
 .nav{
     width: 100%;
     padding: 1% 2%;
-    padding: .8em 6em;
+    /* padding: .8em 6em; */
     position: fixed;
+    top:0;
+    left: 0;
     background-color: white;
     z-index: 50;
     /* margin-bottom: 1.4em; */

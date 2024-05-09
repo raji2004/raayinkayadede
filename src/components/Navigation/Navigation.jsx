@@ -16,11 +16,11 @@ export const Navigation = () => {
           <ul className={Style.navlinks}>
             <div className={Style.logo}>
               <Link>
-                <h1 style={{ color: "#ff1100" }}>RAAYIN'KAYADEDE</h1>
-                <h1 style={{ color: "#000000" }}>NIGERIAN LIMITED</h1>
-                <h2 style={{ color: "#000000" }}>
+                <p style={{ color: "#ff1100" }}>RAAYIN'KAYADEDE</p>
+                <p style={{ color: "#000000" }}>NIGERIAN LIMITED</p>
+                <p style={{ color: "#000000" }}>
                   <span style={{ color: "#ff1100" }}>Rc:</span>1829733
-                </h2>
+                </p>
               </Link>
             </div>
 
