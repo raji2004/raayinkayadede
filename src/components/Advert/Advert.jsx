@@ -11,7 +11,7 @@ const WorkingHoursComponent = ({ number, description,title }) => {
       <h3>{number}</h3>
       <div className={Style.rule}></div>
       <h4>{title}</h4>
-      <p>{description}</p>
+      <p className='text-center'>{description}</p>
     </div>
   );
 };
@@ -88,7 +88,7 @@ export const AdvertMobile = () => {
                   <h4 className="text-2xl text-white font-semibold">
                     Completed Projects
                   </h4>
-                  <p className="text-white text-lg">
+                  <p className="text-white text-lg text-center ">
                     We have completed a lot of projects successfully with our
                     experience.
                   </p>
@@ -101,7 +101,7 @@ export const AdvertMobile = () => {
                   <h4 className="text-2xl text-white font-semibold">
                     Satisfied Customers
                   </h4>
-                  <p className="text-white text-lg">
+                  <p className="text-white text-lg text-center">
                     Every family who live in our buildings are 100% satisfied
                     with our support and construction.
                   </p>
@@ -114,7 +114,7 @@ export const AdvertMobile = () => {
                   <h4 className="text-2xl text-white font-semibold">
                     Working Hours
                   </h4>
-                  <p className="text-white text-lg">
+                  <p className="text-white text-lg text-center">
                     We have worked a lot in the past 19 years to provide the
                     best apartments to live.
                   </p>

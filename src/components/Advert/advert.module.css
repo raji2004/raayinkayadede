@@ -31,22 +31,22 @@
     position: absolute;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    /* justify-content: center;
     align-items: center;
-    align-content: center;
+    align-content: center; */
     /* background-color: yellow; */
     padding: 1rem 1.5rem;
-    /* height: 30vh; */
+    height: 30vh;
 }
 
 .imagestyle {
-    width: 25%;
+    /* width: 25%; */
     /* background-color: blue; */
     position: relative;
 }
 
 .advertcontainer {
-    width: 75%;
+    /* width: 75%; */
     /* height: 80vh; */
 
     /* height: 30vh; */
@@ -98,10 +98,9 @@
 .content {
     width: 33.333%;
     height: 50vh;
-    /* background-color: green; */
     display: flex;
     flex-direction: column;
-   gap: 10px;
+    gap: 10px;
     align-items: center;
 }
 
@@ -128,5 +127,5 @@
 .content p {
     color: #fff;
     font-size: 22px;
-    text-align: left;
+    text-align: center;
 }
