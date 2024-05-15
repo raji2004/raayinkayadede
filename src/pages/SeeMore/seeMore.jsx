@@ -32,6 +32,7 @@ const slideImg2 = [
 const Project = ({ name, id }) => {
   const { id: projectId } = useParams();
 
+
   const slideImages = {
     1: slideImg1,
     2: slideImg2,
@@ -45,6 +46,9 @@ const Project = ({ name, id }) => {
       {isMobile ? <NavMobile /> : <Navigation />}
       {name} {projectId}
       <Slideshow images={slideImages} />
+      {
+        projectId
+      }
       {/* Content can go into this place for pupulation */}
       {isMobile ? <FooterMobile /> : <Footer />}
     </>

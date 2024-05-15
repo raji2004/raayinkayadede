@@ -8,11 +8,11 @@ import { Link, useNavigate } from "react-router-dom";
 const WorkingHoursComponent = ({ number, description,title }) => {
   return (
     <div className={Style.content}>
-      <h3>{number}</h3>
-      <div className={Style.rule}></div>
-      <h4>{title}</h4>
-      <p>{description}</p>
-    </div>
+    <h3>{number}</h3>
+    <div className={Style.rule}></div>
+    <h4>{title}</h4>
+    <p>{description}</p>
+  </div>
   );
 };
 export const Advert = () => {
@@ -73,11 +73,8 @@ export const AdvertMobile = () => {
           alt="nophoto"
           className="w-full h-95vh object-cover"
         />
-        <div className="h-95vh w-full bg-black bg-opacity-70 flex flex-col items-center justify-center ">
-          <div className="w-full flex flex-col md:flex-row justify-center items-center px-4 mb-4">
-            <div className="w-full md:w-1/4 mb-6 md:mb-0">
-              {/* <img src={Worker} alt="nophoto" className="w-full h-full object-cover" /> */}
-            </div>
+        <div className=" w-full bg-black bg-opacity-70 flex flex-col items-center justify-center ">
+          <div className="w-full flex flex-col justify-center items-center ">
             <div className="w-full md:w-3/4 flex flex-col justify-center items-center">
               <div className="flex flex-col items-center  mb-6 gap-5">
                 <div className="w-full flex flex-col gap-2 items-center">
@@ -88,7 +85,7 @@ export const AdvertMobile = () => {
                   <h4 className="text-2xl text-white font-semibold">
                     Completed Projects
                   </h4>
-                  <p className="text-white text-lg">
+                  <p className=" md:text-6xl text-white text-center mb-4">
                     We have completed a lot of projects successfully with our
                     experience.
                   </p>
@@ -101,7 +98,7 @@ export const AdvertMobile = () => {
                   <h4 className="text-2xl text-white font-semibold">
                     Satisfied Customers
                   </h4>
-                  <p className="text-white text-lg">
+                  <p className=" md:text-6xl text-white text-center mb-4">
                     Every family who live in our buildings are 100% satisfied
                     with our support and construction.
                   </p>
@@ -114,7 +111,7 @@ export const AdvertMobile = () => {
                   <h4 className="text-2xl text-white font-semibold">
                     Working Hours
                   </h4>
-                  <p className="text-white text-lg">
+                  <p className=" md:text-6xl text-white text-center mb-4">
                     We have worked a lot in the past 19 years to provide the
                     best apartments to live.
                   </p>
@@ -125,7 +122,7 @@ export const AdvertMobile = () => {
                   We believe that business can be a powerful force for{" "}
                   <span className="text-red-500">good</span>.
                 </h1>
-                <Button text={"Contact Us"} style={{ marginTop: 50 }} href={'/contact'} />
+                <Button text={"Contact Us"} style={{ marginBottom: 50 }} href={'/contact'} />
               </div>
             </div>
           </div>

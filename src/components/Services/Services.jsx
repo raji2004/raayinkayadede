@@ -44,7 +44,7 @@ export const ServicesMobile = () => {
   return (
     <section id="services">
       <section className="mt-10">
-        <h1 className="text-5xl text-left text-red-500 mb-12">Our Services</h1>
+        <h1 className="text-5xl text-left text-red-700 mb-12">Our Services</h1>
         <div className="flex flex-wrap">
           <ConstructionService
             iconSrc={Icon1}

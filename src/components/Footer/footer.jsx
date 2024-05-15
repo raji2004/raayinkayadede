@@ -110,7 +110,7 @@ export const FooterMobile = () => {
           </div>
 
           <div className="mt-8 md:mt-0 w-full md:w-1/3 flex flex-col items-center">
-            <h1 className="text-2xl font-bold mb-4">Contanct Us</h1>
+            <h1 className="text-2xl font-bold mb-4">Resources</h1>
             <h2 className="text-lg mb-2 text-center">
               Want to make an inquiry..
               Reach us on these platforms
