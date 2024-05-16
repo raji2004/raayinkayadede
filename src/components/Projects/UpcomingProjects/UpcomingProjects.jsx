@@ -11,36 +11,36 @@ import { Header } from "../../Header/header";
 
 // this array should be edited to fit the correct information
 const projects = [
-  {
-    imageSrc: Image2,
-    propertyDetails: "The Marriot 1, Plot 198 Cadastral Zone B07 Katampe District, Abuja",
-    sitePlan: "The building is designed for your luxury living which provides an exciting experiences and ambience for a befitting home for class and style",
-    link: "/upcomingProject1",
-  },
-  {
-    imageSrc: Image3,
-    propertyDetails: "The Marriot 1, Plot 198 Cadastral Zone B07 Katampe District, Abuja",
-    sitePlan: "The building is designed for your luxury living which provides an exciting experiences and ambience for a befitting home for class and style",
-    link: "/upcomingProject2",
-  },
-  {
-    imageSrc: Image1,
-    propertyDetails: "Plot 198 Cadastral Zone B07 Katampe District, Abuja",
-    sitePlan: "A block of 4nos five bedrooms terrace apartment & 3nos two bedroom flats",
-    link: "/upcomingProject3",
-  },
-  {
-    imageSrc: Image3,
-    propertyDetails: "The Marriot 1, Plot 198 Cadastral Zone B07 Katampe District, Abuja",
-    sitePlan: "The building is designed for your luxury living which provides an exciting experiences and ambience for a befitting home for class and style",
-    link: "/upcomingProject4",
-  },
-  {
-    imageSrc: Image2,
-    propertyDetails: "The Marriot 1, Plot 198 Cadastral Zone B07 Katampe District, Abuja",
-    sitePlan: "The building is designed for your luxury living which provides an exciting experiences and ambience for a befitting home for class and style",
-    link: "/upcomingProject5",
-  },
+  // {
+  //   imageSrc: Image2,
+  //   propertyDetails: "The Marriot 1, Plot 198 Cadastral Zone B07 Katampe District, Abuja",
+  //   sitePlan: "The building is designed for your luxury living which provides an exciting experiences and ambience for a befitting home for class and style",
+  //   link: "/upcomingProject1",
+  // },
+  // {
+  //   imageSrc: Image3,
+  //   propertyDetails: "The Marriot 1, Plot 198 Cadastral Zone B07 Katampe District, Abuja",
+  //   sitePlan: "The building is designed for your luxury living which provides an exciting experiences and ambience for a befitting home for class and style",
+  //   link: "/upcomingProject2",
+  // },
+  // {
+  //   imageSrc: Image1,
+  //   propertyDetails: "Plot 198 Cadastral Zone B07 Katampe District, Abuja",
+  //   sitePlan: "A block of 4nos five bedrooms terrace apartment & 3nos two bedroom flats",
+  //   link: "/upcomingProject3",
+  // },
+  // {
+  //   imageSrc: Image3,
+  //   propertyDetails: "The Marriot 1, Plot 198 Cadastral Zone B07 Katampe District, Abuja",
+  //   sitePlan: "The building is designed for your luxury living which provides an exciting experiences and ambience for a befitting home for class and style",
+  //   link: "/upcomingProject4",
+  // },
+  // {
+  //   imageSrc: Image2,
+  //   propertyDetails: "The Marriot 1, Plot 198 Cadastral Zone B07 Katampe District, Abuja",
+  //   sitePlan: "The building is designed for your luxury living which provides an exciting experiences and ambience for a befitting home for class and style",
+  //   link: "/upcomingProject5",
+  // },
   {
     imageSrc: Image3,
     propertyDetails: "The Marriot 1, Plot 198 Cadastral Zone B07 Katampe District, Abuja",
