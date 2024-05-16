@@ -11,12 +11,16 @@ import Image3 from "../../assets/images/IMG-20230822-WA0013.jpg";
 import Image4 from "../../assets/images/IMG-20230915-WA0010.jpg";
 // import { Slide } from 'react-slideshow-image';
 import Slideshow from "./Slideshow";
+import { Swipper } from "../../components/Swiper/Swipper";
 
 const slideImg1 = [
-    Image1,
-    Image2,
-    Image3,
-    Image4
+  Image1,
+  Image2,
+  Image3,
+  Image1,
+  Image2,
+  Image3,
+  Image4
 ]
 
 const slideImg2 = [
@@ -36,7 +40,7 @@ const Project = ({ name, id }) => {
     1: slideImg1,
     2: slideImg2,
     // Add more slide images for other projects here
-  }[projectId]; 
+  }[projectId];
 
   const isMobile = useMediaQuery('(max-width: 768px)');
 
@@ -44,7 +48,7 @@ const Project = ({ name, id }) => {
     <>
       {isMobile ? <NavMobile /> : <Navigation />}
       {name} {projectId}
-      <Slideshow images={slideImages} />
+      <Swipper name={'Project'} items={slideImg1} />
       {/* Content can go into this place for pupulation */}
       {isMobile ? <FooterMobile /> : <Footer />}
     </>
@@ -88,18 +92,20 @@ const CompletedProject = ({ name, id }) => {
     1: slideImg1,
     2: slideImg2,
     // Add more slide images for other projects here
-  }[completedProjectId]; 
+  }[completedProjectId];
 
   const isMobile = useMediaQuery('(max-width: 768px)');
 
   return (
-    <>
+    <div>
       {isMobile ? <NavMobile /> : <Navigation />}
-      {name} {completedProjectId}
-      <Slideshow images={slideImages} />
+      <h1 style={{paddingTop:30}}>
+        {name} {completedProjectId}
+      </h1>
+      <Swipper name={name} items={slideImg1} />
       {/* Content can go into this place for pupulation */}
       {isMobile ? <FooterMobile /> : <Footer />}
-    </>
+    </div>
   );
 };
 
@@ -120,7 +126,7 @@ export const CompletedProject4 = () => {
   return <CompletedProject name="CompletedProject 4" id="4" />;
 }
 export const CompletedProject5 = () => {
-  return <CompletedProject name="PCompletedProject 5"  id="5"/>;
+  return <CompletedProject name="PCompletedProject 5" id="5" />;
 
 }
 
@@ -134,14 +140,14 @@ export const CompletedProject6 = () => {
 
 
 // Parent Component for UpcomingProject
-const UpcomingProject= ({ name, id }) => {
+const UpcomingProject = ({ name, id }) => {
   const { id: upcomingProjectId } = useParams();
 
   const slideImages = {
     1: slideImg1,
     2: slideImg2,
     // Add more slide images for other projects here
-  }[upcomingProjectId]; 
+  }[upcomingProjectId];
 
   const isMobile = useMediaQuery('(max-width: 768px)');
 
@@ -181,5 +187,5 @@ export const UpcomingProject6 = () => {
 };
 
 
-  
+
 

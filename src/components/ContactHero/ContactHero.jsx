@@ -2,7 +2,7 @@ import React from "react";
 import Style from "./contacthero.module.css";
 import { TextField, } from "@mui/material";
 import { Button } from "../../components";
-import { color } from "framer-motion";
+
 export const ContactHero = () => {
   return (
     <div style={{ height: '160vh' }}>
