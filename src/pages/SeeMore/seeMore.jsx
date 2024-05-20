@@ -11,7 +11,7 @@ import Image3 from "../../assets/images/IMG-20230822-WA0013.jpg";
 import Image4 from "../../assets/images/IMG-20230915-WA0010.jpg";
 // import { Slide } from 'react-slideshow-image';
 import Slideshow from "./Slideshow";
-import { Swipper } from "../../components/Swiper/Swipper";
+// import { Swipper } from "../../components/Swiper/Swipper";
 
 const slideImg1 = [
   Image1,
@@ -48,7 +48,7 @@ const Project = ({ name, id }) => {
     <>
       {isMobile ? <NavMobile /> : <Navigation />}
       {name} {projectId}
-      <Swipper name={'Project'} items={slideImg1} />
+      {/* <Swipper name={'Project'} items={slideImg1} /> */}
       {/* Content can go into this place for pupulation */}
       {isMobile ? <FooterMobile /> : <Footer />}
     </>
@@ -102,7 +102,7 @@ const CompletedProject = ({ name, id }) => {
       <h1 style={{paddingTop:30}}>
         {name} {completedProjectId}
       </h1>
-      <Swipper name={name} items={slideImg1} />
+      {/* <Swipper name={name} items={slideImg1} /> */}
       {/* Content can go into this place for pupulation */}
       {isMobile ? <FooterMobile /> : <Footer />}
     </div>
