@@ -9,7 +9,33 @@ import Image1 from "../../assets/images/IMG-20230915-WA0007.jpg";
 import Image2 from "../../assets/images/IMG-20230915-WA0009.jpg";
 import Image3 from "../../assets/images/IMG-20230822-WA0013.jpg";
 import Image4 from "../../assets/images/IMG-20230915-WA0010.jpg";
-// import { Slide } from 'react-slideshow-image';
+
+
+
+
+import testingImg from "../../assets/work/completed P1.jpeg"
+import testingImg2 from "../../assets/work/completed P2.jpeg"
+import testingImg3 from "../../assets/work/completed P3.jpeg"
+import testingImg4 from "../../assets/work/completed P4.jpeg"
+import testingImg5 from "../../assets/work/completed P5.jpeg"
+import testingImg6 from "../../assets/work/completed P6.jpeg"
+import testingImg7 from "../../assets/work/completed P7.jpeg"
+import testingImg8 from "../../assets/work/completed P8.jpeg"
+import testingImg9 from "../../assets/work/completed P9.jpeg"
+import testingImg10 from "../../assets/work/completed P10.jpeg"
+import testingImg11 from "../../assets/work/completed P11.jpeg"
+import testingImg13 from "../../assets/work/completed 13.jpeg"
+import testingImg14 from "../../assets/work/completed 14.jpeg"
+import testingImg15 from "../../assets/work/completed 15.jpeg"
+import testingImg16 from "../../assets/work/completed 16.jpeg"
+import testingImg17 from "../../assets/work/completed 17.jpeg"
+import testingImg18 from "../../assets/work/completed 18.jpeg"
+import testingImg19 from "../../assets/work/completed 19.jpeg"
+
+
+
+
+
 import Slideshow from "./Slideshow";
 // import { Swipper } from "../../components/Swiper/Swipper";
 
@@ -32,9 +58,64 @@ const slideImg2 = [
 
 
 
+const GalaryInfo = [
+  {
+    Name:"5-BEDROOM DUPLEX  ",
+    Location:" ASOKORO ",
+    Scope:"CONSTRUCTION WORKS ",
+    img:[
+      testingImg,
+      testingImg2,
+    ]
+  },
+  {
+    Name:" 60-NRS OF 3-BEDROOM DUPLEX",
+    Location:"MAGODO",
+    Scope:"CONSTRUCTION WORKS ",
+    img:[
+      testingImg3,
+      testingImg4,
+      testingImg5,
+    ]
+  },
+  {
+    Name:"5-BEDROOM BUNGALOW WITH BQ ",
+    Location:" GUZAPE, ASOKORO, ABUJA",
+    Scope:"CONSTRUCTION WORKS ",
+    img:[
+      testingImg6,
+      testingImg7,
+      testingImg8,
+      testingImg9,
+      testingImg10,
+      testingImg11,
+    ]
+  },
+  {
+    Name:"OPERATION’S CENTRE  ",
+    Location:" HEADQUARTERS, NIGERIAN ARMY, ABUJA",
+    Scope:"CONSTRUCTION WORKS ",
+    img:[
+      testingImg13,
+      testingImg14,
+      testingImg15,
+      testingImg16,
+      testingImg17,
+      testingImg18,
+      testingImg19,
+    ]
+  }
+]
+
+
+
+
+
+
 // Parent Component for OngoingProject
 const Project = ({ name, id }) => {
   const { id: projectId } = useParams();
+
 
   const slideImages = {
     1: slideImg1,
@@ -48,7 +129,10 @@ const Project = ({ name, id }) => {
     <>
       {isMobile ? <NavMobile /> : <Navigation />}
       {name} {projectId}
-      {/* <Swipper name={'Project'} items={slideImg1} /> */}
+      <Slideshow images={slideImages} />
+      {
+        projectId
+      }
       {/* Content can go into this place for pupulation */}
       {isMobile ? <FooterMobile /> : <Footer />}
     </>
@@ -99,10 +183,36 @@ const CompletedProject = ({ name, id }) => {
   return (
     <div>
       {isMobile ? <NavMobile /> : <Navigation />}
-      <h1 style={{paddingTop:30}}>
-        {name} {completedProjectId}
-      </h1>
-      {/* <Swipper name={name} items={slideImg1} /> */}
+      {
+        isMobile ?
+        <div className="h-20">
+        </div>:
+        <div className="h-10">
+        </div>
+      }
+      {/* <Slideshow images={slideImages} /> */}
+      <h2 className="md:pt-20 m-3 text-3xl font-bold">Completed Project</h2>
+      <div className="">
+      {GalaryInfo.map((item) => (
+        <div key={item.Name} className=" overflow-hidden ">
+          <div className="p-4">
+            <h3>{item.Name}</h3>
+            <p>{item.Location}</p>
+            <p>{item.Scope}</p>
+            <div className="flex flex-wrap ">
+            {item.img.map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt={`${item.Name} - Image ${index + 1}`}
+                className="w-full h-48 object-cover md:w-1/2 lg:w-1/3 p-2"
+              />
+            ))}
+          </div>
+          </div>
+        </div>
+      ))}
+    </div>
       {/* Content can go into this place for pupulation */}
       {isMobile ? <FooterMobile /> : <Footer />}
     </div>

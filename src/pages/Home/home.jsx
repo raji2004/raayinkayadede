@@ -1,6 +1,6 @@
 import React from "react";
 import Style from "./home.module.css";
-import { style, useMediaQuery } from '@mui/system';
+import { boxSizing, padding, style, useMediaQuery } from '@mui/system';
 import {
   Navigation,
   HeroSection,
@@ -36,9 +36,7 @@ export const Home = () => {
 
 const HomeDesktop = () => {
   const globalStyles = {
-    boxSizing: 'border-box',
-    margin: 0,
-    padding: 0,
+
   };
   return (
     <div
@@ -51,8 +49,8 @@ const HomeDesktop = () => {
       <Advert />
       <ChooseUs />
       <CompletedProjects />
-      <UpcomingProjects />
       <OngoingProjects />
+      <UpcomingProjects />
       <Footer />
     </div>
   );

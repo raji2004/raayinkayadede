@@ -11,12 +11,21 @@ import { Header } from "../../Header/header";
 
 // this array should be edited to fit the correct information
 const projects = [
+<<<<<<< HEAD
   // {
   //   imageSrc: Image2,
   //   propertyDetails: "The Marriot 1, Plot 198 Cadastral Zone B07 Katampe District, Abuja",
   //   sitePlan: "The building is designed for your luxury living which provides an exciting experiences and ambience for a befitting home for class and style",
   //   link: "/upcomingProject1",
   // },
+=======
+  {
+    imageSrc: Image2,
+    propertyDetails: "The Marriot 1, Plot 198 Cadastral Zone B07 Katampe District, Abuja",
+    sitePlan: "The building is designed for your luxury living which provides an exciting experiences and ambience for a befitting home for class and style",
+    link: "/upcomingProject1",
+  },
+>>>>>>> final-changes-before-upload
   // {
   //   imageSrc: Image3,
   //   propertyDetails: "The Marriot 1, Plot 198 Cadastral Zone B07 Katampe District, Abuja",
@@ -41,12 +50,21 @@ const projects = [
   //   sitePlan: "The building is designed for your luxury living which provides an exciting experiences and ambience for a befitting home for class and style",
   //   link: "/upcomingProject5",
   // },
+<<<<<<< HEAD
   {
     imageSrc: Image3,
     propertyDetails: "The Marriot 1, Plot 198 Cadastral Zone B07 Katampe District, Abuja",
     sitePlan: "The building is designed for your luxury living which provides an exciting experiences and ambience for a befitting home for class and style",
     link: "/upcomingProject6",
   },
+=======
+  // {
+  //   imageSrc: Image3,
+  //   propertyDetails: "The Marriot 1, Plot 198 Cadastral Zone B07 Katampe District, Abuja",
+  //   sitePlan: "The building is designed for your luxury living which provides an exciting experiences and ambience for a befitting home for class and style",
+  //   link: "/upcomingProject6",
+  // },
+>>>>>>> final-changes-before-upload
 ];
 
 

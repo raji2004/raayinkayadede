@@ -147,19 +147,6 @@ export const AboutTeamMobile = () => {
           {/* <div className={Style.profilecontent}></div> */}
           <div className={Style.member}>
             <img className={Style.image} src={Image1} alt="" />
-            {/* <div className={Style.textblock}>
-              <p>
-                The Managing Director is responsible for making strategic
-                decisions, managing operations, and ensuring the company's
-                success in delivering construction projects on time and within
-                budget.
-              </p>
-            </div> */}
-
-            {/* <div className={Style.text}>
-              <h3>Managing Director</h3>
-              <p>Abdullahi AbdulQuddus</p>
-            </div> */}
           </div>
 
           <div className={Style.teamnames}>
