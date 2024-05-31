@@ -3,6 +3,8 @@ import Style from "./chooseus.module.css";
 import Worker from "../../assets/images/figmapic 1 1.png";
 import { Button } from "../Button/Button";
 import { Header } from "../Header/header";
+
+
 export const ChooseUs = () => {
   return (
     <>
@@ -32,7 +34,7 @@ export const ChooseUs = () => {
 export const ChooseUsMobile = () => {
   return (
     <>
-      <div className="w-full h-90vh bg-gray-100">
+      <div className="w-full  bg-gray-100 p-2">
         <div className="container mx-auto flex flex-col md:flex-row justify-center items-center py-12">
           <div className="w-full md:w-1/2 mx-4 mb-8 md:mb-0">
             <img src={Worker} alt="nophoto" className="w-full h-full md:h-64 object-cover rounded-lg shadow-md" />

@@ -3,7 +3,7 @@ import React from 'react';
 
 export const Header = ({ children ,style}) => {
   return (
-    <h1 className={`text-4xl text-center text-red-600 font-bold  ${style}`} >
+    <h1 className={`text-center text-red-400 font-bold  ${style}`} >
       {children}
     </h1>
   );
