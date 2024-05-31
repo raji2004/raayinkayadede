@@ -14,21 +14,15 @@ import { Header } from "../../Header/header";
 // import ProjectPage from './ProjectPage'
 
 
+
+
+import onGoingProjectIcon from '../../../assets/icons/CreatedIcons/renewable_9202449.png'
+
+
+
 const projects = [
   {
-<<<<<<< HEAD
-    imageSrc: Image3,
-    propertyDetails: "The Marriot 1, Plot 198 Cadastral Zone B07 Katampe District, Abuja",
-    sitePlan: "The building is designed for your luxury living which provides an exciting experiences and ambience for a befitting home for class and style",
-    link: "/project2",
-  },
-  // {
-  //   imageSrc: Image2,
-  //   propertyDetails: "The Marriot 1, Plot 198 Cadastral Zone B07 Katampe District, Abuja",
-  //   sitePlan: "The building is designed for your luxury living which provides an exciting experiences and ambience for a befitting home for class and style",
-  //   link: "/project1",
-=======
-    imageSrc: Image2,
+    imageSrc: onGoingProjectIcon,
     propertyDetails: "The Marriot 1, Plot 198 Cadastral Zone B07 Katampe District, Abuja",
     sitePlan: "The building is designed for your luxury living which provides an exciting experiences and ambience for a befitting home for class and style",
     link: "/project1",
@@ -38,7 +32,6 @@ const projects = [
   //   propertyDetails: "The Marriot 1, Plot 198 Cadastral Zone B07 Katampe District, Abuja",
   //   sitePlan: "The building is designed for your luxury living which provides an exciting experiences and ambience for a befitting home for class and style",
   //   link: "/project2",
->>>>>>> final-changes-before-upload
   // },
   // {
   //   imageSrc: Image1,

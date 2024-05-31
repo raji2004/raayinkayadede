@@ -8,19 +8,11 @@ import { Link, useNavigate } from "react-router-dom";
 const WorkingHoursComponent = ({ number, description,title }) => {
   return (
     <div className={Style.content}>
-<<<<<<< HEAD
-      <h3>{number}</h3>
-      <div className={Style.rule}></div>
-      <h4>{title}</h4>
-      <p className='text-center'>{description}</p>
-    </div>
-=======
     <h3>{number}</h3>
     <div className={Style.rule}></div>
     <h4>{title}</h4>
     <p>{description}</p>
   </div>
->>>>>>> final-changes-before-upload
   );
 };
 export const Advert = () => {
@@ -93,11 +85,7 @@ export const AdvertMobile = () => {
                   <h4 className="text-2xl text-white font-semibold">
                     Completed Projects
                   </h4>
-<<<<<<< HEAD
-                  <p className="text-white text-lg text-center ">
-=======
                   <p className=" md:text-6xl text-white text-center mb-4">
->>>>>>> final-changes-before-upload
                     We have completed a lot of projects successfully with our
                     experience.
                   </p>
@@ -110,11 +98,7 @@ export const AdvertMobile = () => {
                   <h4 className="text-2xl text-white font-semibold">
                     Satisfied Customers
                   </h4>
-<<<<<<< HEAD
-                  <p className="text-white text-lg text-center">
-=======
                   <p className=" md:text-6xl text-white text-center mb-4">
->>>>>>> final-changes-before-upload
                     Every family who live in our buildings are 100% satisfied
                     with our support and construction.
                   </p>
@@ -127,11 +111,7 @@ export const AdvertMobile = () => {
                   <h4 className="text-2xl text-white font-semibold">
                     Working Hours
                   </h4>
-<<<<<<< HEAD
-                  <p className="text-white text-lg text-center">
-=======
                   <p className=" md:text-6xl text-white text-center mb-4">
->>>>>>> final-changes-before-upload
                     We have worked a lot in the past 19 years to provide the
                     best apartments to live.
                   </p>

@@ -23,6 +23,7 @@ import {
   CompletedProjects,
   CompletedProjectsMobile
 } from "../../components";
+import ProjectList from "../../components/DisplayProject/ProjectList";
 export const Home = () => {
   const isMobile = useMediaQuery('(max-width: 768px)');
   return (
@@ -48,9 +49,10 @@ const HomeDesktop = () => {
       <Services />
       <Advert />
       <ChooseUs />
-      <CompletedProjects />
+      <ProjectList/>
+      {/* <CompletedProjects />
       <OngoingProjects />
-      <UpcomingProjects />
+      <UpcomingProjects /> */}
       <Footer />
     </div>
   );
@@ -65,9 +67,10 @@ const HomeMobile = () => {
       <ServicesMobile />
       <AdvertMobile />
       <ChooseUsMobile />
-      <OngoingProjectsMobile />
+      <ProjectList/>
+      {/* <OngoingProjectsMobile />
       <UpcomingProjectsMobile />
-      <CompletedProjectsMobile />
+      <CompletedProjectsMobile /> */}
       <FooterMobile />
     </div>
   );

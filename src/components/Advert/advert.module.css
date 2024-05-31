@@ -29,16 +29,6 @@
 .container {
     width: 100%;
     position: absolute;
-<<<<<<< HEAD
-    display: flex;
-    flex-direction: row;
-    /* justify-content: center;
-    align-items: center;
-    align-content: center; */
-    /* background-color: yellow; */
-    padding: 1rem 1.5rem;
-    height: 30vh;
-=======
     /* display: flex; */
     /* flex-direction: row; */
     /* justify-content: center; */
@@ -47,7 +37,6 @@
     padding: 1rem 1.5rem;
     /* background-color: yellow; */
     /* height: 30vh; */
->>>>>>> final-changes-before-upload
 }
 
 .imagestyle {
@@ -107,14 +96,6 @@
 
 
 .content {
-<<<<<<< HEAD
-    width: 33.333%;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-=======
     width: 100%;
     /* height: 50vh; */
     /* background-color: green; */
@@ -124,7 +105,6 @@
     /* align-items: center;
     justify-content: center; */
 
->>>>>>> final-changes-before-upload
 }
 
 .content h3 {

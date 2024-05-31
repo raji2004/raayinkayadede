@@ -205,7 +205,7 @@ const CompletedProject = ({ name, id }) => {
                 key={index}
                 src={image}
                 alt={`${item.Name} - Image ${index + 1}`}
-                className="w-full h-48 object-cover md:w-1/2 lg:w-1/3 p-2"
+                className="w-full h-auto rounded-lg object-cover  md:h-48 md:w-1/2 lg:w-1/3 p-2"
               />
             ))}
           </div>

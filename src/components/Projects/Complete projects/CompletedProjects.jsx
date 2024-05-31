@@ -11,10 +11,16 @@ import Image3 from "../../../assets/images/IMG-20230822-WA0016.jpg";
 import Image4 from "../../../assets/images/IMG-20230822-WA0017.jpg";
 
 
+
+
+import FinishedProjectIcon from '../../../assets/icons/CreatedIcons/fence_2960394.png'
+
+
+
 // this array should be edited to fit the correct information
 const projects = [
   {
-    imageSrc: Image2,
+    imageSrc: FinishedProjectIcon,
     propertyDetails: "The Marriot 1, Plot 198 Cadastral Zone B07 Katampe District, Abuja",
     sitePlan: "The building is designed for your luxury living which provides an exciting experiences and ambience for a befitting home for class and style",
     link: "/completedProject1",
